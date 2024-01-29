@@ -84,7 +84,7 @@ export default function Home() {
             <h1 className='text-3xl md:text-5xl text-orange-600'>What we do</h1>
           </div>
           <div className='text-lg md:text-2xl w-full md:w-6/12'>
-            At Inovative, we don&rsquo;t just build websites🙅‍♂️, 
+            At Inventig, we don&rsquo;t just build websites🙅‍♂️, 
             we sculpt digital experiences that resonate with impact.
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-12'>
