@@ -56,7 +56,7 @@ export default function Home() {
             </div>
           </div>
           <div className='w-full md:w-6/12 flex items-center md:justify-center'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-2 w-11/12 md:w-auto'>
+            <div className='grid grid-cols-2 gap-2 w-full md:w-auto'>
               <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
                 <span>Projects</span>
                 <span className='text-3xl font-bold'>150+</span>

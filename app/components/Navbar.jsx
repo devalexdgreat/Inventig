@@ -12,7 +12,7 @@ export default function Navbar() {
                     <Link href={'#services'} className="hover:text-orange-600">Services</Link>
                     <Link href={'#contact'} className="bg-orange-600 hover:bg-orange-500 
                     text-white rounded-full py-1 px-3 duration-700">
-                        Menu
+                        Contact Us
                     </Link>
                 </div>
                 <Link href={'#contact'} className="border border-orange-600 text-orange-600 rounded-full 
