@@ -16,7 +16,7 @@ export default function Navbar() {
                     </Link>
                 </div>
                 <Link href={'#contact'} className="border border-orange-600 text-orange-600 rounded-full 
-                px-3 py-1 hover:bg-orange-600 hover:text-white md:hidden">Let&rsquo;s Work</Link>
+                px-3 py-1 hover:bg-orange-600 hover:text-white md:hidden">Menu</Link>
             </div>
         </div>
     );
