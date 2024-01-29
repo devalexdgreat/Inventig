@@ -24,7 +24,7 @@ export default function Home() {
         <div className='w-11/12 mx-auto py-20'>
           <div className='w-full md:w-9/12'>
             <h1 className='text-5xl md:text-8xl mb-12'>
-              Get your brand to <span className='text-orange-500'>
+              Get your brand to <span className='text-orange-500 font-bold'>
                 STAND OUT🚀</span>on the digital space...
             </h1>
             <div className='flex gap-5'>
@@ -47,7 +47,7 @@ export default function Home() {
         <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-20 md:gap-0'>
           <div className='w-full md:w-6/12'>
             <div className='mb-12'>
-              <h1 className='text-3xl md:text-5xl text-orange-600'>Who we are</h1>
+              <h1 className='text-3xl md:text-5xl text-orange-600 font-bold'>Who we are</h1>
             </div>
             <div className='w-full'>
               <div className='w-full text-lg md:text-2xl'>
@@ -56,22 +56,22 @@ export default function Home() {
             </div>
           </div>
           <div className='w-full md:w-6/12 flex items-center md:justify-center'>
-            <div className='grid grid-cols-2 gap-2 w-11/12 md:w-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-2 w-11/12 md:w-auto'>
               <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
                 <span>Projects</span>
-                <span className='text-3xl'>150+</span>
+                <span className='text-3xl font-bold'>150+</span>
               </div>
               <div className='bg-black text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-white'>
                 <span>Clients</span>
-                <span className='text-3xl'>132+</span>
+                <span className='text-3xl font-bold'>132+</span>
               </div>
               <div className='bg-black text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-white'>
                 <span>Awards</span>
-                <span className='text-3xl'>12+</span>
+                <span className='text-3xl font-bold'>12+</span>
               </div>
               <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
                 <span>Experience</span>
-                <span className='text-3xl'>04+</span>
+                <span className='text-3xl font-bold'>04+</span>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
       <div className='w-full py-24 bg-white' id='services'>
         <div className='w-11/12 mx-auto'>
           <div className='mb-6'>
-            <h1 className='text-3xl md:text-5xl text-orange-600'>What we do</h1>
+            <h1 className='text-3xl md:text-5xl text-orange-600 font-bold'>What we do</h1>
           </div>
           <div className='text-lg md:text-2xl w-full md:w-6/12'>
             At Inventig, we don&rsquo;t just build websites🙅‍♂️, 
@@ -94,7 +94,7 @@ export default function Home() {
               </div>
               <div>
                 <div className='mb-3'>
-                  <h1 className='text-2xl'>Frontend Development</h1>
+                  <h1 className='text-2xl font-bold'>Frontend Development</h1>
                 </div>
                 <div>
                   <p>
@@ -114,7 +114,7 @@ export default function Home() {
               </div>
               <div>
                 <div className='mb-3'>
-                  <h1 className='text-2xl'>Backend Development</h1>
+                  <h1 className='text-2xl font-bold'>Backend Development</h1>
                 </div>
                 <div>
                   <p>
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
               <div>
                 <div className='mb-3'>
-                  <h1 className='text-2xl'>Web Design and Redesign</h1>
+                  <h1 className='text-2xl font-bold'>Web Design and Redesign</h1>
                 </div>
                 <div>
                   <p>
@@ -153,7 +153,7 @@ export default function Home() {
               </div>
               <div>
                 <div className='mb-3'>
-                  <h1 className='text-2xl'>Graphic Design</h1>
+                  <h1 className='text-2xl font-bold'>Graphic Design</h1>
                 </div>
                 <div>
                   <p>
@@ -215,7 +215,7 @@ export default function Home() {
       <div className='w-full py-32 bg-black text-white'>
         <div className='w-11/12 mx-auto'>
           <div className='w-full md:w-7/12 mx-auto text-center mb-24'>
-            <h1 className='text-3xl md:text-5xl text-orange-500'>
+            <h1 className='text-3xl md:text-5xl text-orange-500 font-bold'>
               Brands we have had priveledge to work with
             </h1>
           </div>

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="w-full pt-24 bg-orange-500 text-white" id="contact">
             <div className="w-11/12 mx-auto">
                 <div className="w-full md:w-7/12 mb-16">
-                    <h1 className="text-3xl md:text-5xl">
+                    <h1 className="text-3xl md:text-5xl font-bold">
                         Starting a new project or want to collaborate with us?
                         <Link href={"mailto:alex_dgreat001@protonmail.com"} className="border-2 border-black rounded-full 
                         py-0.5 px-3 text-2xl md:text-4xl text-black hover:bg-black 
