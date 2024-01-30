@@ -20,7 +20,7 @@ export default function Home() {
 
       <Navbar />
 
-      <div className='w-full bg-white'>
+      <div className='w-full bg-white pt-12'>
         <div className='w-11/12 mx-auto py-20'>
           <div className='w-full md:w-9/12'>
             <h1 className='text-5xl md:text-8xl mb-12'>
