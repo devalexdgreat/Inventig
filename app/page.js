@@ -59,19 +59,19 @@ export default function Home() {
             <div className='grid grid-cols-2 gap-2 w-full md:w-auto'>
               <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
                 <span>Projects</span>
-                <span className='text-3xl font-bold'>150+</span>
+                <span className='text-3xl font-bold'>8+</span>
               </div>
               <div className='bg-black text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-white'>
                 <span>Clients</span>
-                <span className='text-3xl font-bold'>132+</span>
+                <span className='text-3xl font-bold'>4+</span>
               </div>
               <div className='bg-black text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-white'>
                 <span>Awards</span>
-                <span className='text-3xl font-bold'>12+</span>
+                <span className='text-3xl font-bold'>2+</span>
               </div>
               <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
                 <span>Experience</span>
-                <span className='text-3xl font-bold'>04+</span>
+                <span className='text-3xl font-bold'>03+</span>
               </div>
             </div>
           </div>
@@ -153,14 +153,11 @@ export default function Home() {
               </div>
               <div>
                 <div className='mb-3'>
-                  <h1 className='text-2xl font-bold'>Graphic Design</h1>
+                  <h1 className='text-2xl font-bold'>Graphic / UI/UX Design</h1>
                 </div>
                 <div>
                   <p>
-                    Visual communication is an art, and our graphic design team 
-                    is here to tell your brand&rsquo;s story with striking visuals. 
-                    From logos that define your identity to eye-catching marketing collateral, 
-                    we curate designs that capture attention and leave a lasting imprint on your audience.
+                    Our design team specializes in crafting captivating visual narratives through innovative Graphic Design and UI/UX solutions, from iconic logos to immersive interfaces. We create designs that seize attention and leave a lasting impression on your audience, elevating your brand&rsquo;s journey with impactful visual storytelling.
                   </p>
                 </div>
               </div>
