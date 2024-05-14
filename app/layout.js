@@ -8,9 +8,14 @@ style: 'normal', })
 // const myFont = Manrope({ weight: '400', subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Inventig - digital agency',
-  description: 'great agency',
-}
+  title: 'Inventig - Digital Agency | Web Development & Design',
+  description: 'Inventig is a leading digital agency specializing in web development and design. We create stunning websites and digital experiences tailored to your needs.',
+  keywords: 'digital agency, web development, web design, custom websites, responsive design, SEO',
+  author: 'Inventig Ltd.',
+  image: '/logo.png', // URL to your Open Graph image
+  url: 'https://inventig.vercel.app', // URL of the current page
+};
+
 
 export default function RootLayout({ children }) {
   return (
