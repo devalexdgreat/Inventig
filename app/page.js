@@ -16,18 +16,20 @@ import styles from './styles.css';
 
 export default function Home() {
   return (
-    <main className="w-full bg-white">
-
+    <main className="w-full">
       <Navbar />
+      <div className='w-full pt-12 relative'>
 
-      <div className='w-full bg-white pt-12'>
-        <div className='w-11/12 mx-auto py-20'>
-          <div className='w-full md:w-9/12'>
-            <h1 className='text-5xl md:text-8xl mb-12'>
-              Get your brand to <span className='text-orange-500 font-bold'>
-                STAND OUT🚀</span>on the digital space...
+      <div className="-z-10 absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+
+      <div className="absolute inset-0 -z-20 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#eee_100%)]"></div>
+
+        <div className='w-11/12 mx-auto py-32'>
+          <div className='w-full md:w-9/12 mx-auto flex flex-col justify-center'>
+            <h1 className='text-4xl md:text-7xl mb-12 text-center font-medium'>
+              Get your brand to STAND OUT🚀 on the digital space...
             </h1>
-            <div className='flex gap-5'>
+            <div className='w-full flex justify-center gap-5'>
               <Link href={'#contact'} className='flex items-center px-4 py-2 md:py-3 md:px-6 
               bg-orange-600 hover:bg-orange-500 text-white rounded-full duration-500'>
                 Let&rsquo;s Work
@@ -44,32 +46,38 @@ export default function Home() {
       </div>
 
       <div className='w-full py-24 bg-orange-100' id="about-us">
-        <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-20 md:gap-0'>
+        <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-10 md:gap-0'>
           <div className='w-full md:w-6/12'>
-            <div className='mb-12'>
+            <div className='mb-6'>
               <h1 className='text-3xl md:text-5xl text-orange-600 font-bold'>Who we are</h1>
             </div>
             <div className='w-full'>
-              <div className='w-full text-lg md:text-2xl'>
+              <div className='w-full text-base md:text-xl'>
                 Welcome to Inventig! 🚀 Where digital excellence meets innovation. As a premier🥇 web development and design agency in Nigeria, we&rsquo;re on a mission to redefine the online landscape, one pixel at a time. Join us in shaping a distinct digital identity for your brand.
+              </div>
+              <div className='w-full flex mt-3'>
+                <Link href={'#contact'} className='flex items-center px-4 py-2 md:py-3 md:px-6 
+                bg-orange-600 hover:bg-orange-500 text-white rounded-full duration-500'>
+                  Let&rsquo;s Work
+                </Link>
               </div>
             </div>
           </div>
           <div className='w-full md:w-6/12 flex items-center md:justify-center'>
             <div className='grid grid-cols-2 gap-2 w-full md:w-auto'>
-              <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
+              <div className='bg-white/20 backdrop-blur-sm text-black px-6 py-8 rounded-3xl flex flex-col border border-black'>
                 <span>Projects</span>
                 <span className='text-3xl font-bold'>8+</span>
               </div>
-              <div className='bg-black text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-white'>
+              <div className='bg-black text-white px-6 py-8 rounded-3xl flex flex-col'>
                 <span>Clients</span>
                 <span className='text-3xl font-bold'>4+</span>
               </div>
-              <div className='bg-black text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-white'>
+              <div className='bg-black text-white px-6 py-8 rounded-3xl flex flex-col'>
                 <span>Awards</span>
                 <span className='text-3xl font-bold'>2+</span>
               </div>
-              <div className='bg-orange-600 text-white p-6 rounded-3xl flex flex-col shadow-2xl shadow-black'>
+              <div className='bg-white/20 backdrop-blur-sm text-black px-6 py-8 rounded-3xl flex flex-col border border-black'>
                 <span>Experience</span>
                 <span className='text-3xl font-bold'>03+</span>
               </div>
